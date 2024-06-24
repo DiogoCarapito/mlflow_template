@@ -1,7 +1,7 @@
-[![Github Actions Workflow](https://github.com/DiogoCarapito/python_project_template/actions/workflows/main.yaml/badge.svg)](https://github.com/DiogoCarapito/python_project_template/actions/workflows/main.yaml)
+[![Github Actions Workflow](https://github.com/DiogoCarapito/python_project_template/actions/workflows/main.yaml/badge.svg)](https://github.com/DiogoCarapito/mlflow_template/actions/workflows/main.yaml)
 
 # python_project_template
-Personal python project template
+Python API MLFlow template
 
 ## cheat sheet
 
@@ -16,9 +16,10 @@ activate venv
 source .venv/bin/activate
 ```
 
-### Docker
-build docker image
+
+### MLFlow
 ```bash
-docker build -t main:latest .
+mlflow server --host 127.0.0.1 --port 8080
 ```
+
 
